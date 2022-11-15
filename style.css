@@ -1,0 +1,67 @@
+/* styles.css odin-recipes main page*/
+img {
+    height: auto;
+    width: 50%;
+    border-bottom: 4px solid hsl(22, 78%, 60%);
+    border-top: 4px solid hsl(19, 98%, 52%);
+    border-left: 4px solid hsl(41, 98%, 49%);
+    border-right: 4px solid hsl(24, 82%, 49%);
+ 
+}
+.img
+{
+  display:flex;
+  justify-content: center;
+}
+ header {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  border-bottom: 4px solid hsl(22, 78%, 60%);
+  border-top: 4px solid hsl(19, 98%, 52%);
+  border-left: 4px solid hsl(41, 98%, 49%);
+  border-right: 4px solid hsl(24, 82%, 49%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f19b4a; 
+    width: 49.2%;
+    padding: 10px;
+    text-align: center;    
+  }
+
+  .flex-container {
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-left: 595px;
+    margin-right: 595px;
+    border-bottom: 4px solid hsl(22, 78%, 60%);
+  border-top: 4px solid hsl(19, 98%, 52%);
+  border-left: 4px solid hsl(41, 98%, 49%);
+  border-right: 4px solid hsl(24, 82%, 49%);
+    
+  }
+  ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;}
+  a {
+      /* this removes the line under the links */
+  text-decoration: none;
+  font-family:Arial, Helvetica, sans-serif;
+  color: darkolivegreen;
+
+  }
+  
+  .menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  body {
+    background: url(sweettexture.jpg) top center no-repeat fixed padding-box content-box #f19b4a;                   
+  }
