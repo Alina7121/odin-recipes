@@ -1,0 +1,14 @@
+/*Thai Basil Chicken */
+img {
+    height: auto;
+    width: 300px;
+    border-bottom: 4px solid hsl(22, 78%, 60%);
+    border-top: 4px solid hsl(19, 98%, 52%);
+    border-left: 4px solid hsl(41, 98%, 49%);
+    border-right: 4px solid hsl(24, 82%, 49%);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+margin-top: 20px;
+margin-left: 10px;}
+    
