@@ -39,10 +39,7 @@ img {
     font-size: 20px;
     margin-left: 595px;
     margin-right: 595px;
-    border-bottom: 4px solid hsl(22, 78%, 60%);
-  border-top: 4px solid hsl(19, 98%, 52%);
-  border-left: 4px solid hsl(41, 98%, 49%);
-  border-right: 4px solid hsl(24, 82%, 49%);
+ 
     
   }
   ul {
