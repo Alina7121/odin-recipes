@@ -1,78 +1,100 @@
 /* styles.css odin-recipes main page*/
-img {
-    height: auto;
-    width: 50%;
-    border-bottom: 4px solid hsl(22, 78%, 60%);
-    border-top: 4px solid hsl(19, 98%, 52%);
-    border-left: 4px solid hsl(41, 98%, 49%);
-    border-right: 4px solid hsl(24, 82%, 49%);
- 
+/*Header--------------------------------------------------------------------------------------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f19b4a;
+  font-family: "Nunito", sans-serif;
 }
-.img
-{
-  display:flex;
-  justify-content: center;
+#title{
+  font-size: 35px;
+  background: linear-gradient(120deg, #74709e 0%, #1b0369 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
 }
  header {
     font-size: 20px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-  display: block;
-  margin-left: auto;
-  margin-right:auto;
-  border-bottom: 4px solid hsl(22, 78%, 60%);
-  border-top: 4px solid hsl(19, 98%, 52%);
-  border-left: 4px solid hsl(41, 98%, 49%);
-  border-right: 4px solid hsl(24, 82%, 49%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #f19b4a; 
-    width: 49.2%;
+    display: block;
     padding: 10px;
-    text-align: center;    
-  }
+    text-align: center; 
+    position: relative;
+       
 
-  .flex-container {
-
-    padding: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 26px;
-    margin-left: 595px;
-    margin-right: 595px;
- 
-    
   }
-  ul {
-    /* this removes the dots on the list items*/
-    list-style-type: none;}
   a {
-      /* this removes the line under the links */
   text-decoration: none;
   font-family:Arial, Helvetica, sans-serif;
-  color: darkolivegreen;
-
+  color: #1b0369;
   }
+  a:hover {
+    color: #0c600b;
+  }
+  /*Manu--------------------------------------------------------------------------------------------*/
+  .recipes{
+    position: relative;
+    padding-top: 100px;
+    margin: 22px;
+    overflow: hidden;
+    min-height: 100vh;
+  }
+   .max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+    border-radius: 40px;
+  }
+   .menu-title {
+    font-size: 2rem;
+    text-align: center;
   
-  .menu {
-    width: 900px;
-    display: flex;
-    justify-content: space-around;
-    border-radius: 20%;}
-    .recipe{
-    border:5px;
-    border-bottom: 4px solid hsl(22, 78%, 60%);
-    border-top: 4px solid hsl(19, 98%, 52%);
-    border-left: 4px solid hsl(41, 98%, 49%);
-    border-right: 4px solid hsl(24, 82%, 49%);
-    padding:10px;
   }
-  
-  body {
-    background: url(sweettexture.jpg) top center no-repeat fixed padding-box content-box #f19b4a;                   
+  .grid-image {
+    width: auto;
+    max-height: 200px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #010409;
   }
-/*Recipes--------------------------------------------------------------------------------------------*/
 
-img {
+.recipe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.recipe-container{
+  width: calc(30% - 40px);
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 2px 2px 20px #4d5dc4d3,0 0 10px #91a8dc;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+.recipe-container:hover,
+.recipe-container:focus {
+  box-shadow: 2px 2px 30px #883d03, 0 0 10px #de890a;
+  transform: translateY(-0.75em) scale(1.05);
+  border: 3px solid rgb(209, 145, 7);
+}
+
+.recipe-name{
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #1b0369;
+  font-weight: bold;
+
+}
+.recipe-name:hover{
+  color: #0c600b;
+  font-weight: bold ;
+}
+/*Recipe Page--------------------------------------------------------------------------------------------*/
+
+.recipe-img {
   height: auto;
   width: 300px;
   border-bottom: 4px solid hsl(22, 78%, 60%);
@@ -82,6 +104,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   border-radius: 20px;
-margin-top: 20px;
-margin-left: 10px;}
+ margin-top: 20px;
+ margin-left: 10px;}
   

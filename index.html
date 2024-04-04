@@ -1,41 +1,90 @@
 <!DOCTYPE html>
-<html lang "en">
+<html lang="en">
 <meta charset="utf-8">
-<link rel="stylesheet" href="style.css">
 <head>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yarndings+12&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Yarndings+12&display=swap" rel="stylesheet">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 <main>
 <header>
-<h1>Thai Recipes</h1>
-<div class="overlay"><em>Get the taste of Thailand in your own kitchen with these authentic Thai flavors!</em></p>
+    <div class="main-img">
+        <img src="./img/ThaiFood.jpg" alt="A table with variety of Thai food dishes">
+        </div>
+<h1 id="title">Thai Recipes</h1>
+<div class="welcome-msg"><em>Get the taste of Thailand in your own kitchen with these authentic Thai flavors!</em></p>
 </div>
-
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#recipes">Recipes</a></li>
+     
+    </ul>
+</nav>
 </header>
-<div class="img">
-<img src="./img/ThaiFood.jpg" alt="A table with variety of Thai food dishes">
-</div>
 <body>
-
-
-<div class="flex-container">
-       <div>
-            <ul class='menu'>
-           <li><div class="recipe"><b><a href="recipes/ThaiCoconutSoup.html"> Thai Coconut Soup </a></b></li>
-           <li><div class="recipe"><b><a href="recipes/ThaiBasilChicken.html"> Thai Basil Chicken </a></b></li>
-           <li><div class="recipe"><b><a href="recipes/ThaiBeefSalad.html"> Thai Beef Salad </a></b></li>
-           <li><div class="recipe"><b><a href="recipes/ThaiBeefSalad.html"> Pad Thai </a></b></li>
-           <li><div class="recipe"><b><a href="recipes/ThaiBeefSalad.html"> Thai Beef Salad </a></b></li>
-            <li><div class="recipe"><b><a href="recipes/ThaiBeefSalad.html"> Thai Beef Salad </a></b></li>
-            <li><div class="recipe"><b><a href="recipes/ThaiBeefSalad.html"> Thai Beef Salad </a></b></li>
-            <li><div class="recipe"><b><a href="recipes/ThaiBeefSalad.html"> Thai Beef Salad </a></b></li>
-           </ul>
+   
+<section id="recipes"class="recipes">
+    <div class="max-width">
+        <h1 class="menu-title">Choose your recipe</h1>
+        <br><br>
+        <div class="recipe">
+            <div class="recipe-container">
+            <img class="grid-image" src="./img/ThaiCoconutSoup.jpg" alt="Thai Coconut Soup">
+            <a class="recipe-link" href="recipes/ThaiCoconutSoup.html">
+                <p class="recipe-name">Thai Coconut Soup</p>
+            </a>
+        </div>
+        </div>
+<div class="recipe">
+            <div class="recipe-container">
+            <img class="grid-image" src="./img/ThaiBasilChicken.jpg" alt=" Thai Basil Chicken">
+            <a class="recipe-link" href="recipes/ThaiBasilChicken.html">
+                <p class="recipe-name">Thai Basil Chicken </p>
+            </a>
+       
+        </div>
+        <div class="recipe-container">
+            <img class="grid-image" src="./img/ThaiBeefSalad.jpg" alt=" Thai Beef Salad ">
+            <a class="recipe-link" href="recipes/ThaiBeefSalad.html">
+                <p class="recipe-name">Thai Beef Salad  </p>
+            </a>
+        </div>
+        <div class="recipe-container">
+            <img class="grid-image" src="./img/padThai-JohnAledia.jpg" alt=" Authentic Pad Thai ">
+            <a class="recipe-link" href="recipes/AuthenticPadThai.html">
+                <p class="recipe-name">Authentic Pad Thai </p>
+            </a>
+        </div>
+        <div class="recipe-container">
+            <img class="grid-image" src="./img/ThaiMussles.jpg" alt=" Thai Steamed Mussels ">
+            <a class="recipe-link" href="recipes/ThaiSteamedMussels.html">
+                <p class="recipe-name">Thai Steamed Mussels </p>
+            </a>
+        </div>
+        <div class="recipe-container">
+            <img class="grid-image" src="./img/curry.jpg" alt=" Thai Curry Soup">
+            <a class="recipe-link" href="recipes/ThaiCurrySoup.html">
+                <p class="recipe-name">Thai Curry Soups </p>
+            </a>
         </div>
     </div>
-    </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>Recipe from <a href="https://www.allrecipes.com/recipe/245699/thai-basil-chicken-pad-krapow/"rel="nofollow">Allrecipes</a></p>
+</footer>
 </body>
+</html>
 </html>
 
 
