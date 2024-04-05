@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f3b071;
+  background-color: #2a2827;
   font-family: "Nunito", sans-serif;
 }
 
@@ -32,7 +32,7 @@
 .welcome-msg em {
   padding-left:20px;
   display: inline-block;
-  background-color: #668d5b;
+  background-color:rgb(4, 122, 77);
   animation: colorChange 5s linear infinite;
 }
   a {
@@ -42,7 +42,7 @@
   }
 
  nav{
-  background-color: #668d5b;
+  background-color:rgb(4, 122, 77);/* #668d5b;*/
     font-weight: bold;
     font-size: 1.2em;
     position: fixed;
@@ -61,7 +61,7 @@
     border-radius: 40px;
     box-shadow: 2px 2px 30px #17603f58, 0 0 10px #a86706;
     font-size: 16px;
-    color: #0a4c2c;
+    color: #2a2827;
     animation: slideTop 1s ease forwards;
     animation-delay: 1s;
     cursor: pointer;
@@ -161,7 +161,7 @@
    .menu-title {
     font-size: 2rem;
     text-align: center;
-    color:#0a4c2c;
+    color:rgb(209, 145, 7);
     margin-bottom: 20px;
     font-weight: bold;
   
@@ -180,27 +180,31 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 .recipe-container{
   width: calc(20% - 50px);
   margin: 20px;
   padding: 10px;
-  box-shadow: 2px 2px 20px #074428d3,0 0 10px #20925c;
+
   border-radius: 20px;
   text-align: center;
-
+  box-shadow: 2px 2px 20px #074428d3,0 0 10px #20925c;
+  transform: translateY(-0.75em) scale(1.05);
+  border: 3px solid rgb(4, 122, 77);
 }
 .recipe-container:hover,
 .recipe-container:focus {
+ 
   box-shadow: 2px 2px 30px #883d03, 0 0 10px #de890a;
-  transform: translateY(-0.75em) scale(1.05);
   border: 3px solid rgb(209, 145, 7);
+
 }
 
 .recipe-name{
   font-size: 1.75rem;
   margin: 10px 0;
-  color: #0a4c2c;
+  color: rgb(209, 145, 7);
   font-weight: bold;
   display: flex;
   flex-wrap: wrap;
