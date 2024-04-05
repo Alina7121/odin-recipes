@@ -260,24 +260,28 @@ p a {
     text-align: center;
     font-size: 30px;
   }
-.recipe-img {
-  
-  margin-left: auto;
-  margin-right: auto;
+section .recipe-img {
+  margin-top: 20px;
+  max-width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px #010409;
   border-radius: 20px;
- margin-top: 20px;
- margin-left: 10px;
- background-color:#668d5b;
+
 }
 
-#recipe-main-container{
+#recipe-main-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
- }
- .recipe-intro{
+  grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+  grid-gap: 20px; /* Optional: Add gap between sections */
+}
+
+.section1,
+.section2 {
+  padding: 20px;
+  box-sizing: border-box;
+  margin-left:20px;
+}
+p, ul, ol {
   color:#e8f0ec;
- }
- .ingredients{
-  color: #e8f0ec;
- }
- 
+}   
+
