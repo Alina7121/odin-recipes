@@ -240,6 +240,8 @@
     display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
+
   }
   .grid-image {
     width:80px;
@@ -284,7 +286,7 @@ section .recipe-img {
 }
 
 #recipe-main-container {
-  display: grid;
+ display: grid;
   grid-template-columns: 1fr 1fr; /* Two columns with equal width */
   grid-gap: 20px; /* Optional: Add gap between sections */
 }
